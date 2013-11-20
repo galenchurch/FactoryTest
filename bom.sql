@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.69, for redhat-linux-gnu (x86_64)
 --
--- Host: 192.237.246.191    Database: bndr_s001
+-- Host: 192.237.246.191    Database: bndr_s002
 -- ------------------------------------------------------
 -- Server version	5.1.69-log
 
@@ -72,4 +72,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-11-19 10:45:13
+-- Dump completed on 2013-11-20 18:40:23
