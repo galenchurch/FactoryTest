@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.69, for redhat-linux-gnu (x86_64)
 --
--- Host: 192.237.246.191    Database: bndr_s001
+-- Host: 192.237.246.191    Database: bndr_s003
 -- ------------------------------------------------------
 -- Server version	5.1.69
 
@@ -47,7 +47,7 @@ CREATE TABLE `bom` (
   PRIMARY KEY (`item`),
   KEY `item` (`item`),
   KEY `part` (`part`)
-) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -60,6 +60,7 @@ INSERT INTO `bom` VALUES (1,'test estimate',NULL,NULL,'test',2,'each',NULL,NULL,
 INSERT INTO `bom` VALUES (2,'PAR02',NULL,NULL,'testpart2',2,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,534,'cncm,prch','3.2,1.2,,,|34,,,,',1,'f7d9a13ad7db838c5e990b8480075a275135dfce');
 INSERT INTO `bom` VALUES (3,NULL,NULL,NULL,'testnone',4,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,17.6,'prch','4,,,,',1,'');
 INSERT INTO `bom` VALUES (4,'TEST01',1,NULL,'test of child',2,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,7451,'prch,cncm','45,,,,|56,2,,,',0,'776e540b49f61170f699954bd8692e68e6c6fd74');
+INSERT INTO `bom` VALUES (10,'PART35',NULL,NULL,'thispush',7,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'');
 /*!40000 ALTER TABLE `bom` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -72,4 +73,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-12-19 14:40:35
+-- Dump completed on 2013-12-19 16:20:26
